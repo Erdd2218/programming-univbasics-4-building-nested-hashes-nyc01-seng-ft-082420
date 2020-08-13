@@ -38,7 +38,8 @@ def monopoly_with_third_tier
   
 }
 
-:names => {:reading_railroad => {},
+:names => {
+  :reading_railroad => {},
 :pennslyvania_railroad => {}, 
 :shortline_railroad => {}
 }
@@ -50,6 +51,7 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
+  
 reading_railroad: { :mortgage_value => 100 }
 pennslyvania_railroad: { :mortgage_value => 200 }
 shortline_railroad { :mortgage_value => 800 }

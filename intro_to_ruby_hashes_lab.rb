@@ -36,7 +36,8 @@ railrods: {
   pieces: 4, 
   rent_in_dollars: {
   :one_piece_owned => 25, 
-  :two_pieces_owned => 50, 
+  :two_pieces_owned => 50,
+  :three_pieces_owned => 100,
   :three_pieces_ownded => 200
   
 }

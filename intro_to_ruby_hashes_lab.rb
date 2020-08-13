@@ -52,6 +52,6 @@ def monopoly_with_fourth_tier
   # complexity.
 :reading_railroad = :mortgage_value => 100 
 :pennslyvania_railroad = :mortgage_value => 200 
-:shortline_railroad] = :mortgage_value => 800
+:shortline_railroad = :mortgage_value => 800
 
 end

@@ -43,8 +43,8 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-one_key[:names][:reading_railroad] = :mortgage_value => 100 
-one_key[:names][:pennslyvania_railroad] = :mortgage_value => 200 
-one_key[:names][:shortline_railroad] = :mortgage_value => 800
+:names[:reading_railroad] = :mortgage_value => 100 
+:names[:pennslyvania_railroad] = :mortgage_value => 200 
+:names[:shortline_railroad] = :mortgage_value => 800
 
 end

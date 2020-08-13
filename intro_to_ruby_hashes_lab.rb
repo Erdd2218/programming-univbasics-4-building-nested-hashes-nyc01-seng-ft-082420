@@ -31,7 +31,10 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-one_key[:rent_in_dollars] = {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces ownded => 200}
+:rent_in_dollars = {
+  :one_piece_owned => 25, 
+  :two_pieces_owned => 50, 
+  :three_pieces_ownded => 200}
 one_key[:names] => {:reading_railroad => {}, :pennslyvania_railroad => {}, :shortline_railroad => {}}
 end
 
